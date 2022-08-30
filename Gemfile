@@ -30,6 +30,11 @@ gem "jbuilder"
 gem "devise"
 #Easy login library https://github.com/heartcombo/devise/blob/main/README.md
 
+gem 'bootstrap', '~> 5.2'
+#https://rubygems.org/gems/bootstrap/versions/5.2.0
+
+gem 'jquery-rails'
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 

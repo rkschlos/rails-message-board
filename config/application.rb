@@ -33,5 +33,8 @@ module RailsMessageBoard
 
     # Don't generate system test files.
     config.generators.system_tests = nil
+
+    #Added for devise if you want to push to heroku
+    config.assets.initialize_on_precompile = false
   end
 end
