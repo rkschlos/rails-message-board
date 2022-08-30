@@ -8,9 +8,22 @@
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
+
   </head>
 
   <body>
+    <header class='clearfix'> 
+    <div class="left-nav">
+      <ul>
+        <li><%= link_to "Login", new_user_session_url %></li>
+      </ul>
+    </div>
+    
+
+    </header>
+    <p class="notice"><%= notice %></p>
+    <p class="alert"><%= alert %></p>
     <%= yield %>
   </body>
 </html>
+
